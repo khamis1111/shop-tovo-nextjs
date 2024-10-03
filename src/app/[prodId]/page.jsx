@@ -1,7 +1,6 @@
 import Product from '@/components/Product/Product'
-import ProductImages from '@/components/product/productImages'
 import ProductImageSilder from '@/components/Product/ProductImageSilder'
-import QuantityProduct from '@/components/product/QuantityProduct'
+import QuantityProduct from '@/components/Product/QuantityProduct'
 
 const ProductDetails = () => {
 
@@ -9,7 +8,6 @@ const ProductDetails = () => {
         <div className='container flex flex-col gap-16'>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="lg:sticky top-12 self-start">
-                    {/* <ProductImages /> */}
                     <ProductImageSilder />
                 </div>
 
